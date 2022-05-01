@@ -4,6 +4,25 @@ html{
 body{
     margin: 0;
 }
+.raleway, .raleway-bold {
+    font-family: 'Raleway', sans-serif;
+}
+.raleway-bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+table {
+    font-family: 'Economica', sans-serif;
+}
+
+table h2 {
+    font-weight: bold;
+}
+
 .headder{
     display: flex;
     justify-content: center;
@@ -112,7 +131,7 @@ body{
 .foodimg{
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
 }
 .footer{
     padding: 50px;
@@ -120,18 +139,23 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    align-items: center;
 
 }
 .footer a{
     color: white;
     padding-left: 50px;
     text-decoration: none;
+    align-items: center;
 }
 .footer-children{
-    width: 60%;
+    width: 50%;
     color: white;
     justify-content: space-around;
+}
 
+.footer-children:last-child {
+    text-align: center;
 }
 
 .footer a:hover{
@@ -171,4 +195,9 @@ table{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 45px;
+}
+
+.bestramen {
+    font-size: 18px;
+    text-align: center;
 }
