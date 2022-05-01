@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.headder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('img/bgr1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+.flower{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    align-items: flex-start;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    
+}
+
+    
+
+.btn{
+    background-color: red;
+    color: white;
+    box-shadow: 2px;
+    box-shadow: white;
+    height: 35px;
+    border-radius: 7.5px;
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 1.5px 1.5px white;
+    
+}
+.btn:hover{
+    background-color: brown;
+    text-decoration: underline;
+}
+.navigation {
+    position: fixed;
+    top: 50px;
+    right: 100px; 
+    font-size: 25px;
+    
+
+}
+.navigation a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0,0.5);
+    
+}
+.navigation a:hover{
+    color: red;
+   
+}
+.order{
+    width: 100%;
+    color:saddlebrown;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+}
+.orderIcon{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icontext{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-direction: column;
+}
+.menucard{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color:saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+   
+}
+.foodimg{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer{
+    padding: 50px;
+    background-color: rgb(151, 148, 148);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.footer a{
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.footer-children{
+    width: 60%;
+    color: white;
+    justify-content: space-around;
+
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+
+.adress{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+
+.location-logo{
+    width: 25px;
+    height: 35px;
+}
+.phone-icn{
+    height: 20px;
+    object-fit: cover;
+}
+table{
+    padding: 150px;
+    
+}
+.menuCardImage{
+    object-fit: cover;
+    width: 250px;   
+    height: 250px;
+    padding: auto;
+}
+.ordermenu{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 45px;
+}
