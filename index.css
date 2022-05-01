@@ -15,12 +15,20 @@ h1 {
     font-size: 64px;
 }
 
-table {
+h2 {
+    color: #a40605;
+}
+table, .icontext p {
     font-family: 'Economica', sans-serif;
+    color: #090909;
 }
 
+table td {
+    color: #676056;
+}
 table h2 {
     font-weight: bold;
+    color: #090909;
 }
 
 .headder{
@@ -54,7 +62,7 @@ table h2 {
     
 
 .btn{
-    background-color: red;
+    background-color: #a40605;
     color: white;
     box-shadow: 2px;
     box-shadow: white;
@@ -66,7 +74,7 @@ table h2 {
     
 }
 .btn:hover{
-    background-color: brown;
+    background-color: #a40605;
     text-decoration: underline;
 }
 .navigation {
@@ -86,7 +94,7 @@ table h2 {
     
 }
 .navigation a:hover{
-    color: red;
+    color: #a40605;
    
 }
 .order{
@@ -135,7 +143,6 @@ table h2 {
 }
 .footer{
     padding: 50px;
-    background-color: rgb(151, 148, 148);
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -200,4 +207,9 @@ table{
 .bestramen {
     font-size: 18px;
     text-align: center;
+}
+
+.adress.order span {
+
+    color: #090909;
 }
