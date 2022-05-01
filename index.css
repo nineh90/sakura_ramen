@@ -92,6 +92,10 @@ body{
     align-items: space-between;
     flex-direction: column;
 }
+
+.icontext p {
+    text-align: center;
+}
 .menucard{
     background-image: url('img/background.jpg');
     background-size: cover;
